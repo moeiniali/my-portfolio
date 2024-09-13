@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderCo } from '../exAllCo';
+import { HeaderCo, MainSlide } from '../exAllCo';
 type Props = {}
 
 const Home = (props: Props) => {
@@ -8,6 +8,7 @@ const Home = (props: Props) => {
 
 
    <HeaderCo />
+   <MainSlide />
 
 
   </div>
