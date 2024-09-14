@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderCo, MainSlide } from '../exAllCo';
+import { HeaderCo, MainSlide, SectionICo, BioCo, ProjectsCo, ProjectsVidCo, Skills, ExperiencesCo, FooterCo } from '../exAllCo';
 type Props = {}
 
 const Home = (props: Props) => {
@@ -9,8 +9,13 @@ const Home = (props: Props) => {
 
    <HeaderCo />
    <MainSlide />
-
-
+   <SectionICo />
+   <BioCo />
+   <ProjectsCo />
+   <ProjectsVidCo />
+   <Skills />
+   <ExperiencesCo />
+   <FooterCo />
   </div>
  )
 }

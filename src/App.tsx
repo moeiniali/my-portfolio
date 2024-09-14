@@ -17,7 +17,7 @@ function App() {
       Button: { colorPrimary: '#1043A6', fontWeight: 500, colorPrimaryText: '#F9F5FF', colorPrimaryHover: '#140a66', colorPrimaryActive: '#140a66', }
      }
     }}>
-     <div className="w-full h-screen bg-[#090E16]">
+     <div className="w-full max-w-[1440px] mx-auto h-screen bg-[#090E16]">
       <RouterProvider router={router} />
      </div>
     </ConfigProvider>
