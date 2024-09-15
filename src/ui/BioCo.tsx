@@ -11,13 +11,13 @@ const BioCo = (props: Props) => {
      <div className="mb-8 md:mb-0 md:w-1/3">
       <div className="relative w-64 h-64 mx-auto">
        <img
-        src="./images/icon.svg"
+        src="./images/1663242918693.jpg"
         alt="Profile"
         width={460}
         height={460}
-        className="rounded-full w-full h-full object-cover transition-all duration-300 hover:scale-105 hover:shadow-lg"
+        className="rounded-full w-full h-full object-cover  duration-300 hover:scale-95 shadow-2xl cursor-pointer shadow-violet-900"
        />
-       <div className="absolute inset-0 rounded-full border-4 border-purple-500 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+       {/* <div className="absolute inset-0 rounded-full border-4 border-purple-500 opacity-0 hover:opacity-100 transition-opacity duration-300"></div> */}
       </div>
      </div>
 

@@ -19,7 +19,7 @@ const ProjectsVidCo = (props: Props) => {
       { id: 6, title: "VR Training Simulation", description: "A tour of the immersive learning environment.", videoUrl: "https://example.com/video6.mp4" },
      ].map((project) => (
       <div key={project.id} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-purple-500/50 transition-shadow duration-300">
-       <video className="w-full h-48 object-cover" controls>
+       <video className="w-full h-48 object-cover" controls poster='/images/images.jpg' >
         <source src={project.videoUrl} type="video/mp4" />
         Your browser does not support the video tag.
        </video>

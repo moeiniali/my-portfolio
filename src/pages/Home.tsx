@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderCo, MainSlide, SectionICo, BioCo, ProjectsCo, ProjectsVidCo, Skills, ExperiencesCo, FooterCo } from '../exAllCo';
+import { HeaderCo, MainSlide, SectionICo, BioCo, CertificatesCo, ProjectsCo, ProjectsVidCo, Skills, ExperiencesCo, FooterCo } from '../exAllCo';
 type Props = {}
 
 const Home = (props: Props) => {
@@ -15,6 +15,7 @@ const Home = (props: Props) => {
    <ProjectsVidCo />
    <Skills />
    <ExperiencesCo />
+   <CertificatesCo />
    <FooterCo />
   </div>
  )

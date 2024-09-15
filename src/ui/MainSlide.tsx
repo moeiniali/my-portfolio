@@ -61,7 +61,7 @@ const MainSlide = (props: Props) => {
 
 
     <div className="flex flex-col items-center justify-center content-center  hover:scale-95 duration-700 border rounded-full border-indigo-700">
-     <a href="#" className="flex items-center text-gray-500 hover:text-gray-700 gap-2 px-4 py-1">
+     <a href="https://wa.me/09204450850" target='_blank' className="flex items-center text-gray-500 hover:text-gray-700 gap-2 px-4 py-1">
       <img src="/images/WhatsappLogo.png" alt="whatsapp" width={16} height={16} />
       <h3 className="text-base font-semibold text-gray-500 ">whatsUp...</h3>
      </a>

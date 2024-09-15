@@ -11,7 +11,7 @@ import ExperiencesCo from "./ui/ExperiencesCo";
 import SocialLink from "./utils/SocialLink";
 import ContactItem from "./utils/ContactItem";
 import FooterCo from "./ui/FooterCo";
-
+import CertificatesCo from "./ui/CertificatesCo";
 
 
 export {
@@ -27,5 +27,6 @@ export {
  ExperiencesCo,
  SocialLink,
  ContactItem,
+ CertificatesCo,
  FooterCo
 }
