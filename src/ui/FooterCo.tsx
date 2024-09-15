@@ -21,11 +21,11 @@ const FooterCo = (props: Props) => {
 
     {/* Contact methods */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-     <ContactItem icon="mail" text="Email" value="your.email@example.com" />
-     <ContactItem icon="whatsapp" text="WhatsApp" value="+1234567890" />
-     <ContactItem icon="telegram" text="Telegram" value="@yourusername" />
-     <ContactItem icon="linkedin" text="LinkedIn" value="linkedin.com/in/yourprofile" />
-     <ContactItem icon="instagram" text="Instagram" value="@yourusername" />
+     <ContactItem icon="mail" text="Email : " value="a.moeini101@gmail.com" />
+     <ContactItem icon="whatsapp" text="WhatsApp : " value="+989204450850" />
+     <ContactItem icon="telegram" text="Telegram : " value="@yourusername" />
+     <ContactItem icon="linkedin" text="LinkedIn : " value="linkedin.com/in/amoeini75" />
+     <ContactItem icon="instagram" text="Instagram : " value="@yourusername" />
     </div>
 
     {/* Back to top button */}

@@ -13,25 +13,25 @@ const ExperiencesCo = (props: Props) => {
     <div className="space-y-8">
      {[
       {
-       jobTitle: "Senior Frontend Developer",
-       organization: "Tech Innovators Inc.",
-       duration: "Jan 2020 - Present",
+       jobTitle: "Frontend Developer",
+       organization: "Sayesaman (sunich)",
+       duration: "November 2023 - until now",
        position: "Full-time",
        description: "Led the development of responsive web applications using React and Next.js. Implemented state management solutions with Redux and optimized performance for large-scale applications."
       },
       {
-       jobTitle: "Web Developer",
-       organization: "Digital Solutions Ltd.",
-       duration: "Mar 2018 - Dec 2019",
+       jobTitle: "programmer and internet affairs",
+       organization: "nikan",
+       duration: "March 2022 - september 2022",
        position: "Full-time",
-       description: "Developed and maintained client websites using HTML, CSS, and JavaScript. Collaborated with the design team to implement UI/UX improvements and ensure cross-browser compatibility."
+       description: "Programming and designing WordPress sites and doing all the internet work"
       },
       {
-       jobTitle: "Junior Developer",
-       organization: "StartUp Ventures",
-       duration: "Jun 2017 - Feb 2018",
-       position: "Internship",
-       description: "Assisted in the development of web applications, gained hands-on experience with modern frontend frameworks, and participated in code reviews and team meetings."
+       jobTitle: "Bachelor of commerce",
+       organization: "Iromart",
+       duration: "November 2022 - until March 2022",
+       position: "Full-time",
+       description: "Commercial and logistics expert and crm support"
       }
      ].map((experience, index) => (
       <div key={index} className="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-purple-500/50 transition-shadow duration-300">

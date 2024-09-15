@@ -28,7 +28,24 @@ const BioCo = (props: Props) => {
 
       <div className="flex items-start  space-x-2">
        <img src="./images/Group 70.png" alt="Location" className="w-5 h-5" />
-       <p className="text-gray-400 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+       <p className="text-gray-400 text-sm">
+
+        Dear Sir/Madam, Best regards My name is Ali Moeini, and I am 27 years old. I have been working
+        in front-end design and coding for over 2 years. During this time, I have gained proficiency in
+        various front-end programming and markup languages, including HTML, JavaScript, TypeScript,
+        React.js, and Next.js. I am constantly learning new things. I am very interested in growing
+        alongside a team and achieving more successful projects. With the experience I have gained
+        over the years, I have the ability to implement responsive components and PWA web
+        applications, collaborate with back-end teams to integrate APIs and services such as REST API
+        and GraphQL, use Git and Azure DevOps for version management and collaboration, and design
+        and implement user interfaces using CSS and libraries like Bootstrap, AntDesign, and
+        TailwindCSS. I am always working on improving my skills. Thank you very much for taking the
+        time to review my resume. I am sincerely eager to collaborate and gain experience alongs
+
+
+
+
+       </p>
       </div>
 
 

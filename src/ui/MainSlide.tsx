@@ -1,5 +1,4 @@
 import React from 'react'
-import { link } from 'fs';
 
 
 type Props = {}
@@ -19,16 +18,17 @@ const MainSlide = (props: Props) => {
 
 
     <div className="flex flex-row space-x-4 mt-4">
-     {/* <a href="https://github.com/moeiniali" target='_blank' className="text-gray-500 hover:text-gray-700 hover:scale-95 duration-700">
+     <a href="https://github.com/moeiniali" target='_blank' className="text-gray-500 hover:text-gray-700 hover:scale-95 duration-700">
       <i className="fab fa-facebook-f">
        <img src="/images/github.png" alt="" width={32} height={32} />
       </i>
-     </a> */}
-     <link href="https://linkedin.com/in/ali-moeini75" className="text-gray-500 hover:text-gray-700 hover:scale-95 duration-700">
+     </a>
+
+     <a href="https://linkedin.com/in/ali-moeini75" target='_blank' className="text-gray-500 hover:text-gray-700 hover:scale-95 duration-700">
       <i className="fab fa-twitter">
-       <img src="/images/linkedin.png" alt="linkedin" width={32} height={32} />
+       <img src="/images/linkedin.png" alt="" width={32} height={32} />
       </i>
-     </link>
+     </a>
 
     </div>
    </div>
