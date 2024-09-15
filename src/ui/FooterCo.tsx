@@ -48,7 +48,7 @@ const FooterCo = (props: Props) => {
       <SocialLink href="#" icon="instagram" />
       <SocialLink href="#" icon="linkedin" />
      </div>
-     <p className="text-sm">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+     <p className="text-sm">&copy; {new Date().getFullYear()} Ali moeini. All rights reserved.</p>
     </div>
    </div>
   </footer>
