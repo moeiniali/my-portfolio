@@ -20,7 +20,7 @@ const FooterCo = (props: Props) => {
     </div>
 
     {/* Contact methods */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-sm:flex max-sm:flex-col max-sm:items-center">
      <ContactItem icon="mail" text="Email : " value="a.moeini101@gmail.com" />
      <ContactItem icon="whatsapp" text="WhatsApp : " value="+989204450850" />
      <ContactItem icon="telegram" text="Telegram : " value="@yourusername" />
@@ -29,7 +29,7 @@ const FooterCo = (props: Props) => {
     </div>
 
     {/* Back to top button */}
-    <div className="text-center mb-12">
+    <div className="text-center mb-12 ">
      <button
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       className="bg-transparent border border-purple-950 hover:scale-95 duration-700 text-gray-200 font-bold py-2 px-4 rounded-full transition "
@@ -40,7 +40,7 @@ const FooterCo = (props: Props) => {
    </div>
 
    {/* Social links and copyright */}
-   <div className="bg-gray-800 py-4   w-full h-20 absolute   left-0">
+   <div className="bg-gray-800 py-4   w-full h-20 absolute   left-0 ">
     <div className=" flex flex-col items-center  pb-10 w-full h-full  ">
      <div className="flex space-x-4 mb-4">
       <SocialLink href="#" icon="facebook" />

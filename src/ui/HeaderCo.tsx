@@ -8,7 +8,7 @@ type Props = {}
 const HeaderCo = (props: Props) => {
  return (
   <Flex justify={'space-between'} align={'center'} gap={16} style={{ backgroundColor: 'rgba(123, 74, 226, 0.05)' }}
-   className='max-w-[1640px]  h-16 text-gray-500  mt-9 right-0 m-auto rounded-2xl px-4'>
+   className='max-w-[1640px]   h-16 text-gray-300  mt-9 right-0 m-auto rounded-2xl px-4'>
 
    <div>
     <img src="./images/logo.svg" alt="logo" width={36} height={40} />

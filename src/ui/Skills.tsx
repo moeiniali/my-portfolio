@@ -19,14 +19,14 @@ const Skills = (props: Props) => {
    <div className="flex flex-wrap justify-center gap-8 hover:scale-95 duration-1000 mt-10 ">
     <img src="./images/React.svg" alt="React" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000  " />
     <img src="./images/Nextjs.svg" alt="Next.js" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/javascript.svg" alt="Node.js" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/TypeScript.svg" alt="JavaScript" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/Github.svg" alt="TypeScript" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/Figma.svg" alt="HTML5" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/Group 1 (1).svg" alt="CSS3" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/Group 1.svg" alt="MongoDB" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/TailwindCSS.svg" alt="MongoDB" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
-    <img src="./images/Nodejs.svg" alt="MongoDB" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/javascript.svg" alt="javascript.js" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/TypeScript.svg" alt="TypeScript" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/Github.svg" alt="Github" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/Figma.svg" alt="Figma" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/Group 1 (1).svg" alt="icon" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/Group 1.svg" alt="icon" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/TailwindCSS.svg" alt="TailwindCSS" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
+    <img src="./images/Nodejs.svg" alt="Nodejs" className="w-16 h-16 cursor-pointer hover:scale-105 duration-1000" />
    </div>
   </div>
 

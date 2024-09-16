@@ -50,7 +50,9 @@ const ProjectsCo = (props: Props) => {
      <div className='w-full flex flex-wrap gap-4 items-center justify-end'>
 
       {tabs.map((tab, index) => (
-       <div id={tab.id}
+       <div
+        key={index}
+        id={tab.id}
         onClick={(e) => setIsActiveTab((e.target as HTMLTextAreaElement).id)}
         className="w-auto Z-50 h-12 flex space-x-4  mb-1 ">
         <button
@@ -69,7 +71,7 @@ const ProjectsCo = (props: Props) => {
 
     {/* Projects Grid */}
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  ">
-     {filteredProjecs.map((project) => (<>
+     {filteredProjecs.map((project) => (
 
       <div key={project.id} className="bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-purple-500/50 hover:scale-105 cursor-pointer  duration-700">
        <img src={project.image} alt={`Project ${project.title}`} className="w-full h-48 object-cover" />
@@ -78,7 +80,7 @@ const ProjectsCo = (props: Props) => {
         <p className="text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua {project.description}</p>
        </div>
       </div>
-     </>))
+     ))
      }
 
     </div>
