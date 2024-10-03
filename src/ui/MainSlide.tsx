@@ -50,7 +50,7 @@ const MainSlide = (props: Props) => {
    <div className=" w-1/3  max-sm:w-full max-sm:items-center flex flex-col items-end justify-center space-y-4 ">
 
     <div className="flex flex-col items-center justify-center content-center hover:scale-95 duration-700">
-     <Link to="/files/aliMoeini-en.pdf" className="flex items-center gap-2 justify-center content-center text-gray-300 hover:text-gray-700">
+     <Link to={''} onClick={() => window.open('/files/aliMoeini-en.pdf')} className="flex items-center gap-2 justify-center content-center text-gray-300 hover:text-gray-700">
       <h3 className="text-base font-semibold text-gray-300  ">myCv</h3>
       <img src="/images/ArrowLineDown.png" alt="download" width={16} height={16} />
      </Link>

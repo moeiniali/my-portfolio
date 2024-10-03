@@ -11,7 +11,7 @@ const BioCo = (props: Props) => {
      <div className="mb-8 md:mb-0 md:w-1/3">
       <div className="relative w-64 h-64 mx-auto">
        <img
-        src="./images/1663242918693.jpg"
+        src="/images/1663242918693.jpg"
         alt="Profile"
         width={460}
         height={460}
@@ -27,7 +27,7 @@ const BioCo = (props: Props) => {
       <h2 className="text-white text-3xl font-bold mb-4">Ali Moeini </h2>
 
       <div className="flex items-start  space-x-2">
-       <img src="./images/Group 70.png" alt="Location" className="w-5 h-5" />
+       <img src="/images/Group 70.png" alt="Location" className="w-5 h-5" />
        <p className="text-gray-400 text-sm">
 
         Dear Sir/Madam, Best regards My name is Ali Moeini, and I am 27 years old. I have been working

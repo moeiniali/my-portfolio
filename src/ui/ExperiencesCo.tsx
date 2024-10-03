@@ -15,7 +15,7 @@ const ExperiencesCo = (props: Props) => {
       {
        jobTitle: "Frontend Developer",
        organization: "Sayesaman (sunich)",
-       duration: "November 2023 - until now",
+       duration: "January   2023 - September  2024",
        position: "Full-time",
        description: "Led the development of responsive web applications using React and Next.js. Implemented state management solutions with Redux and optimized performance for large-scale applications."
       },

@@ -7,6 +7,8 @@ const data = [
  { id: 1, title: "Next.js Web Dev: Master this Powerful React Framework", issuer: "Udemy", date: "may 27 2024", image: "/images/UC.jpg", url: 'https://www.udemy.com/certificate/UC-a5068126-f6d9-466e-8289-66a7732cc00f/' },
  { id: 2, title: "Learn JavaScript", issuer: "Coursera", date: "sep 2 2023", image: "/images/CERTIFICATE_LANDING_PAGE~Z24YE5R73VFZ.jpeg" },
  { id: 3, title: "HTML, CSS, and Javascript for Web Developers", issuer: "Coursera", date: "July 1, 2023", image: "/images/CERTIFICATE_LANDING_PAGE~2M3R49EE5QPG.jpeg" },
+ { id: 4, title: "Preliminary design of web pages", issuer: "Technical and professional organization of Iran", date: "February  31, 2023", image: "/images/1677259492046.jpg" },
+ { id: 5, title: "Course completion certificate", issuer: "nikoravesh", date: "September  15, 2022", image: "/images/1672569945422.jpg" },
 ]
 
 

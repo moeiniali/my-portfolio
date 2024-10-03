@@ -8,19 +8,19 @@ const SectionICo = (props: Props) => {
 
    <div className="flex space-x-4 mb-4 gap-10">
     <div className="flex flex-col justify-center items-center cursor-pointer hover:scale-95 duration-700">
-     <img src="./images/CodeIcon.svg" alt="icon" width={50} height={50} />
+     <img src="/images/CodeIcon.svg" alt="icon" width={50} height={50} />
      <p className="text-gray-200 text-sm">4+ yrs</p>
      <p className="text-white text-xs">programming</p>
     </div>
 
     <div className="flex flex-col justify-center items-center cursor-pointer hover:scale-95 duration-700">
-     <img src="./images/ProjectsIcon.svg" alt="icon" width={50} height={50} />
+     <img src="/images/ProjectsIcon.svg" alt="icon" width={50} height={50} />
      <p className="text-gray-200 text-sm">2+ yrs</p>
      <p className="text-white text-xs">wordpress and joomla</p>
     </div>
 
     <div className="flex flex-col justify-center items-center cursor-pointer hover:scale-95 duration-700">
-     <img src="./images/DesignIcon.svg" alt="icon" width={50} height={50} />
+     <img src="/images/DesignIcon.svg" alt="icon" width={50} height={50} />
      <p className="text-gray-200 text-sm">1+ yrs</p>
      <p className="text-white text-xs">ui designer</p>
     </div>

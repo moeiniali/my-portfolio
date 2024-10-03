@@ -2,24 +2,24 @@ import React, { useState } from 'react'
 
 type Props = {}
 const tabs = [
- { id: '1', title: 'all', icon: './images/icon.svg' },
- { id: '2', title: 'reactJs', icon: './images/icon.svg' },
- { id: '3', title: 'nextJs', icon: './images/icon.svg' },
- { id: '4', title: 'UI Design', icon: './images/icon.svg' },
- { id: '5', title: 'wordpress', icon: './images/icon.svg' },
- { id: '6', title: 'html - css', icon: './images/icon.svg' },
- { id: '7', title: 'javascript', icon: './images/icon.svg' },
+ { id: '1', title: 'all', icon: '/images/icon.svg' },
+ { id: '2', title: 'reactJs', icon: '/images/icon.svg' },
+ { id: '3', title: 'nextJs', icon: '/images/icon.svg' },
+ { id: '4', title: 'UI Design', icon: '/images/icon.svg' },
+ { id: '5', title: 'wordpress', icon: '/images/icon.svg' },
+ { id: '6', title: 'html - css', icon: '/images/icon.svg' },
+ { id: '7', title: 'javascript', icon: '/images/icon.svg' },
 ];
 
 
 const projects = [
- { id: '1', title: 'project 1', description: 'project 1', image: './images/images.jpg' },
- { id: '2', title: 'project 2', description: 'project 2', image: './images/images.jpg' },
- { id: '3', title: 'project 3', description: 'project 3', image: './images/images.jpg' },
- { id: '4', title: 'project 4', description: 'project 4', image: './images/images.jpg' },
- { id: '5', title: 'project 5', description: 'project 5', image: './images/images.jpg' },
- { id: '6', title: 'project 6', description: 'project 6', image: './images/images.jpg' },
- { id: '7', title: 'project 7', description: 'project 7', image: './images/images.jpg' },
+ { id: '1', title: 'project 1', description: 'project 1', image: '/images/images.jpg' },
+ { id: '2', title: 'project 2', description: 'project 2', image: '/images/images.jpg' },
+ { id: '3', title: 'project 3', description: 'project 3', image: '/images/images.jpg' },
+ { id: '4', title: 'project 4', description: 'project 4', image: '/images/images.jpg' },
+ { id: '5', title: 'project 5', description: 'project 5', image: '/images/images.jpg' },
+ { id: '6', title: 'project 6', description: 'project 6', image: '/images/images.jpg' },
+ { id: '7', title: 'project 7', description: 'project 7', image: '/images/images.jpg' },
 ]
 
 const ProjectsCo = (props: Props) => {
@@ -49,7 +49,7 @@ const ProjectsCo = (props: Props) => {
      </div>
      <div className='w-full flex flex-wrap gap-4 items-center justify-end'>
 
-      {tabs.map((tab, index) => (
+      {/* {tabs.map((tab, index) => (
        <div
         key={index}
         id={tab.id}
@@ -65,7 +65,7 @@ const ProjectsCo = (props: Props) => {
          <span id={tab.id} className='whitespace-nowrap'>{tab.title}</span>
         </button>
        </div>
-      ))}
+      ))} */}
      </div>
     </div>
 

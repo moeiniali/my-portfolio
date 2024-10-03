@@ -11,7 +11,7 @@ const HeaderCo = (props: Props) => {
    className='max-w-[1640px]   h-16 text-gray-300  mt-9 right-0 m-auto rounded-2xl px-4'>
 
    <div>
-    <img src="./images/logo.svg" alt="logo" width={36} height={40} />
+    <img src="/images/logo.svg" alt="logo" width={36} height={40} />
    </div>
    <Flex gap={24} >
     <Link to={'/home'}>
